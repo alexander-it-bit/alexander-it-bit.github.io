@@ -208,7 +208,7 @@ a {
 ========================= */
 
 section {
-    padding: 100px 7vw;
+    padding: 90px 7vw;
 }
 
 
@@ -552,5 +552,37 @@ footer span {
     footer {
         padding: 100px 20px;
     }
+
+
+    .date-section {
+    padding-top: 65px;
+    padding-bottom: 75px;
+    }
+
+.date-section .section-label {
+    margin-bottom: 45px;
+}
+
+.big-date {
+    gap: 10px;
+
+    font-size: clamp(58px, 19vw, 80px);
+
+    line-height: 0.85;
+}
+
+.date-divider {
+    height: 55px;
+}
+
+.date-description {
+    margin-top: 40px;
+
+    font-size: 10px;
+
+    letter-spacing: 0.22em;
+
+    line-height: 1.8;
+}
 
 }
