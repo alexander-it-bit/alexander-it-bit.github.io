@@ -479,6 +479,23 @@ footer span {
 
 @media (max-width: 700px) {
 
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .date-section {
+        order: 2;
+    }
+
+    .place-section {
+        order: 1;
+    }
+
+    footer {
+        order: 3;
+    }
+
     section {
         padding: 90px 24px;
     }
