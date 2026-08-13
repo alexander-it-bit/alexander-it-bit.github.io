@@ -78,7 +78,7 @@ a {
     position: absolute;
     inset: 0;
 
-    background-image: url("../images/hero.jpg");
+    background-image: url("../images/fon.jpg");
 
     background-size: cover;
     background-position: center;
@@ -208,7 +208,7 @@ a {
 ========================= */
 
 section {
-    padding: 130px 7vw;
+    padding: 100px 7vw;
 }
 
 
@@ -281,6 +281,9 @@ section {
 ========================= */
 
 .date-section {
+    padding-top: 90px;
+    padding-bottom: 110px;
+
     background: var(--background-dark);
 
     text-align: center;
