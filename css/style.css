@@ -584,5 +584,107 @@ footer span {
 
     line-height: 1.8;
     }
+    .countdown {
+    margin-top: 65px;
+}
 
+
+.countdown-title {
+    margin-bottom: 30px;
+}
+
+
+.countdown-grid {
+    gap: 12px;
+}
+
+
+.countdown-item {
+    flex: 1;
+}
+
+
+.countdown-item span {
+    font-size: clamp(36px, 11vw, 52px);
+
+    min-width: 0;
+}
+
+
+.countdown-item small {
+    margin-top: 12px;
+
+    font-size: 7px;
+
+    letter-spacing: 0.12em;
+}
+
+}
+/* =========================
+   COUNTDOWN
+========================= */
+
+.countdown {
+    margin-top: 90px;
+}
+
+
+.countdown-title {
+    margin: 0 0 35px;
+
+    font-size: 10px;
+
+    letter-spacing: 0.28em;
+
+    text-transform: uppercase;
+
+    color: var(--muted);
+}
+
+
+.countdown-grid {
+    display: flex;
+
+    justify-content: center;
+
+    align-items: flex-start;
+
+    gap: 70px;
+}
+
+
+.countdown-item {
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+}
+
+
+.countdown-item span {
+    font-family: var(--serif);
+
+    font-size: clamp(45px, 5vw, 70px);
+
+    font-weight: 400;
+
+    line-height: 0.9;
+
+    min-width: 70px;
+}
+
+
+.countdown-item small {
+    margin-top: 15px;
+
+    font-family: var(--sans);
+
+    font-size: 9px;
+
+    letter-spacing: 0.2em;
+
+    text-transform: uppercase;
+
+    color: var(--muted);
 }
