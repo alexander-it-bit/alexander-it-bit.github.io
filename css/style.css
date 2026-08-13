@@ -395,9 +395,10 @@ section {
 .place-time {
     margin: 35px 0;
 
-    font-size: 18px;
+    font-size: 20px;
+    font-family: var(--serif);
 
-    letter-spacing: 0.15em;
+    /*letter-spacing: 0.15em;*/
 }
 
 
