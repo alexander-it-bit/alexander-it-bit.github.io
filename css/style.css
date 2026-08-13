@@ -486,10 +486,12 @@ footer span {
 
     .date-section {
         order: 2;
+        background: var(--background);
     }
 
     .place-section {
         order: 1;
+        background: var(--background-dark);
     }
 
     footer {
