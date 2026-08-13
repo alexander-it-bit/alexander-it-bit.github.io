@@ -2,53 +2,204 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Приглашение на нашу роспись"
+    >
 
     <title>Анна & Иван</title>
 
-    <style>
-        body {
-            margin: 0;
-            min-height: 100vh;
+    <!-- Шрифты -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-            display: flex;
-            justify-content: center;
-            align-items: center;
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500&display=swap"
+        rel="stylesheet"
+    >
 
-            font-family: Arial, sans-serif;
-            text-align: center;
-
-            background: #f7f3ef;
-            color: #333;
-        }
-
-        .invitation {
-            padding: 40px 20px;
-        }
-
-        h1 {
-            font-size: 48px;
-            font-weight: 400;
-            margin-bottom: 10px;
-        }
-
-        .date {
-            font-size: 22px;
-            margin-top: 20px;
-        }
-    </style>
+    <!-- Наши стили -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-    <main class="invitation">
+    <main>
 
-        <p>Мы женимся</p>
+        <!-- HERO -->
+        <section class="hero">
 
-        <h1>Анна & Иван</h1>
+            <div class="hero-image"></div>
 
-        <div class="date">
-            15 сентября 2026
-        </div>
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content">
+
+                <p class="eyebrow">
+                    ПРИГЛАШЕНИЕ
+                </p>
+
+                <h1>
+                    Анна
+                    <span>&</span>
+                    Иван
+                </h1>
+
+                <p class="hero-date">
+                    15 · 09 · 2026
+                </p>
+
+                <p class="hero-location">
+                    Москва
+                </p>
+
+                <a href="#invitation" class="scroll-button">
+                    <span>Узнать больше</span>
+                    <span class="arrow">↓</span>
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- INTRO -->
+        <section id="invitation" class="intro">
+
+            <div class="section-label">
+                01 — ПРИГЛАШЕНИЕ
+            </div>
+
+            <div class="intro-content">
+
+                <h2>
+                    Мы будем рады
+                    разделить этот день
+                    с вами
+                </h2>
+
+                <div class="intro-text">
+
+                    <p>
+                        Дорогие родные и друзья!
+                    </p>
+
+                    <p>
+                        Совсем скоро состоится один из самых
+                        важных дней в нашей жизни — день,
+                        когда мы официально станем семьёй.
+                    </p>
+
+                    <p>
+                        И нам очень хочется провести этот
+                        момент вместе с вами.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- DATE -->
+        <section class="date-section">
+
+            <div class="section-label">
+                02 — ДАТА
+            </div>
+
+            <div class="big-date">
+
+                <span>15</span>
+
+                <div class="date-divider"></div>
+
+                <span>09</span>
+
+                <div class="date-divider"></div>
+
+                <span>26</span>
+
+            </div>
+
+            <p class="date-description">
+                вторник · сентябрь 2026
+            </p>
+
+        </section>
+
+
+        <!-- PLACE -->
+        <section class="place-section">
+
+            <div class="place-image">
+                <img
+                    src="images/fon.jpg"
+                    alt="Место проведения"
+                >
+            </div>
+
+            <div class="place-content">
+
+                <div class="section-label">
+                    03 — МЕСТО
+                </div>
+
+                <h2>
+                    Регистрация
+                    брака
+                </h2>
+
+                <p class="place-name">
+                    Название ЗАГСа
+                </p>
+
+                <p class="place-address">
+                    Москва,<br>
+                    ул. Примерная, 10
+                </p>
+
+                <p class="place-time">
+                    Начало в 14:00
+                </p>
+
+                <a
+                    href="#"
+                    class="outline-button"
+                >
+                    Построить маршрут
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- FOOTER -->
+        <footer>
+
+            <p>
+                С любовью
+            </p>
+
+            <h2>
+                Анна & Иван
+            </h2>
+
+            <span>
+                15 · 09 · 2026
+            </span>
+
+        </footer>
 
     </main>
+
+</body>
+</html>
