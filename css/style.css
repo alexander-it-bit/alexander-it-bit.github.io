@@ -595,28 +595,41 @@ footer span {
 
 
 .countdown-grid {
-    gap: 12px;
-}
+    width: 100%;
 
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+
+    gap: 6px;
+}
 
 .countdown-item {
-    flex: 1;
+    min-width: 0;
+    width: 100%;
 }
-
 
 .countdown-item span {
-    font-size: clamp(36px, 11vw, 52px);
+    display: block;
 
-    min-width: 0;
+    width: 100%;
+
+    font-size: clamp(30px, 10vw, 48px);
+
+    line-height: 0.9;
+
+    white-space: nowrap;
 }
 
-
 .countdown-item small {
+    display: block;
+
     margin-top: 12px;
 
     font-size: 7px;
 
-    letter-spacing: 0.12em;
+    letter-spacing: 0.08em;
+
+    white-space: nowrap;
 }
 
 }
@@ -625,7 +638,7 @@ footer span {
 ========================= */
 
 .countdown {
-    margin-top: 90px;
+    margin-top: 55px;
 }
 
 
